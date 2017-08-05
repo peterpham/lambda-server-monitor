@@ -1,0 +1,17 @@
+{
+  "name": "server-monitor",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to check web site",
+  "main": "handler.js",
+  "dependencies": {
+    "request": "^2.73.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Pham",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.4.6"
+  }
+}
